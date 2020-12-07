@@ -34,4 +34,9 @@ textarea {
     background-color: rgba(226, 226, 6, 0.678) ;
     border-radius: 0.5rem;
 }
+footer{
+    background-color:  rgba(226, 226, 6, 0.678) ;
+    margin-left: 0px;
+    text-align: center;
+}
 
