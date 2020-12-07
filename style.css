@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@500&display=swap');
+
+body{
+    font-family: 'Texturina', serif;
+    margin: null;
+}
+
+textarea {
+    width: 80%;
+    height: 10vh;
+    display: block;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 1.5px solid black;
+    margin-bottom: 1rem;
+}
+
+#outputArea {
+    border: 2px solid black;
+    height: 10vh;
+    width: 80%;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+#heading{
+    padding-left: 1rem;
+    height: 15%;
+    background-color: rgba(226, 226, 6, 0.678);
+    text-align: center;
+}
+#btnTranslate{
+    padding: 0.4rem 2rem;
+    background-color: rgba(226, 226, 6, 0.678) ;
+    border-radius: 0.5rem;
+}
+
