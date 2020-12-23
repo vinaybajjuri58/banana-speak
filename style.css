@@ -2,32 +2,34 @@
 
 body{
     font-family: 'Texturina', serif;
-    margin: null;
+    margin: 0;
 }
 
-textarea {
-    width: 80%;
-    height: 10vh;
+#inputArea {
     display: block;
     padding: 1rem;
-    border-radius: 1rem;
     border: 1.5px solid black;
-    margin-bottom: 1rem;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 20vh;
+    font-size: large;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 #outputArea {
     border: 2px solid black;
     height: 10vh;
-    width: 80%;
     padding: 1rem;
-    border-radius: 1rem;
     margin-top: 1rem;
 }
 #heading{
-    padding-left: 1rem;
-    height: 15%;
+    height: 100px;
     background-color: rgba(226, 226, 6, 0.678);
     text-align: center;
+    padding-top: 30px;
+    margin: 0;
+    font-size: 2rem;
 }
 #btnTranslate{
     padding: 0.4rem 2rem;
@@ -38,5 +40,11 @@ footer{
     background-color:  rgba(226, 226, 6, 0.678) ;
     margin-left: 0px;
     text-align: center;
+}
+main{
+    margin: auto;
+    padding: 1rem;
+    align-items: center;
+    width: 60%;
 }
 
